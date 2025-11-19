@@ -1,9 +1,10 @@
-﻿using ProductManagementt.Persistance;
+﻿using FluentValidation;
+using ProductManagementt.Persistance;
 
 namespace ProductManagementt.Features.Products;
 
 
-public class CreateProductHandler(ProductManagementContext context, ILogger<CreateProductHandler> logger)
+public class CreateProductHandler(ProductManagementContext context, ILogger<CreateProductHandler> logger, IValidator<CreateProductRequest> validator)
 {
     public async Task<IResult> Handle(CreateProductRequest request)
     {
@@ -14,6 +15,13 @@ public class CreateProductHandler(ProductManagementContext context, ILogger<Crea
                               $"category: {request.Category}\n" +
                               $"{request.ReleaseDate}\n" +
                               $"quantity:{request.StockQuantity}\n");
+        
+        var validationResult = await validator.ValidateAsync(request);
+        if (!validationResult.IsValid)
+        {
+            throw new ValidationException(validationResult.Errors);
+        }
+        
         var product = new Product(
             request.Id,
             request.Name,
@@ -27,7 +35,7 @@ public class CreateProductHandler(ProductManagementContext context, ILogger<Crea
         
         context.Products.Add(product);
         await context.SaveChangesAsync();
-        logger.LogInformation($"User created successfully with id: {product.Id}");
+        logger.LogInformation($"Product created successfully with id: {product.Id}");
 
         return Results.Created($"/products/{product.Id}", product);
     }
