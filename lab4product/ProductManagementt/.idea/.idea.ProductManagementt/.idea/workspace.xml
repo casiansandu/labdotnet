@@ -8,45 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24058551-9e67-4120-96c2-c91d77c9109b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/.idea/.idea.Product Management API/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/.idea/.idea.Product Management API/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/.idea/.idea.Product Management API/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/.idea/.idea.Product Management API/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/.idea/.idea.Product Management API/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/.idea/.idea.ProductModule/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/Product Management API.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/ProductModule.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/Product Management API.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/Product Management API.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/Product Management API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/Product Management API.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/Product Management API.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/Product Management API.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/ProductModule.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/ProductModule.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/ProductModule.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/ProductModule.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/ProductModule.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Debug/net9.0/ProductModule.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Product Management API.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Product Management API.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/Product Management API.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/ProductModule.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/ProductModule.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/ProductModule.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/rider.project.model.nuget.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProductManagement/Product Management API/obj/rider.project.restore.info" beforeDir="false" />
-    </list>
+    <list default="true" id="24058551-9e67-4120-96c2-c91d77c9109b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +20,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;casiansandu&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/casiansandu/labdotnet.git&quot;,
+    &quot;accountId&quot;: &quot;7faeef98-eec3-40c9-8ec3-2413ae7a3f6c&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ProductManagementt/Features/Products/CreateProductHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProductManagementt/Features/Products/CreateProductRequest.cs" root0="FORCE_HIGHLIGHTING" />
@@ -68,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/ProductManagementt/Features/Products/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProductManagementt/Features/Products/ProductCategory.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -76,22 +51,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.ProductManagementt: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ProductManagementt: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ProductManagementt: http">
     <configuration name="ProductManagementt: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ProductManagementt/ProductManagementt.csproj" />
@@ -136,16 +111,28 @@
       <workItem from="1761292583688" duration="2699000" />
       <workItem from="1761892604807" duration="3145000" />
       <workItem from="1761897734567" duration="776000" />
-      <workItem from="1763577844516" duration="592000" />
+      <workItem from="1763577844516" duration="813000" />
     </task>
+    <task id="LOCAL-00001" summary="a">
+      <option name="closed" value="true" />
+      <created>1763578653106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1763578653106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
