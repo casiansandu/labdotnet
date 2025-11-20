@@ -30,6 +30,8 @@ public class CreateProductHandler(ProductManagementContext context, ILogger<Crea
             request.Category,
             request.Price,
             request.ReleaseDate,
+            request.CreatedAt,
+            request.IsAvailable,
             request.ImageUrl,
             request.StockQuantity);
         

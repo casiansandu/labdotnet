@@ -9,5 +9,7 @@ public record Product(
     ProductCategory Category,
     decimal         Price,
     DateTime        ReleaseDate,
+    DateTime        CreatedAt,
+    bool            IsAvailable,
     string?         ImageUrl = null,
     int             StockQuantity = 1);
