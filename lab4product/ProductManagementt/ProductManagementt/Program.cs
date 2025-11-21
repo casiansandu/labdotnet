@@ -1,25 +1,38 @@
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using ProductManagementt.Features.Products;
+using ProductManagementt.Common.Mapping;
+using ProductManagementt.Common.Middleware;
+using ProductManagementt.Features.Products.CreateProduct;
 using ProductManagementt.Persistance;
 using ProductManagementt.Validators;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<ProductManagementContext>(options =>
     options.UseSqlite("Data Source=productmanagement.db"));
+
 builder.Services.AddScoped<CreateProductHandler>();
 builder.Services.AddScoped<GetAllProductsHandler>();
 builder.Services.AddScoped<DeleteProductHandler>();
-builder.Services.AddValidatorsFromAssemblyContaining<CreateProductValidator>();
+
+builder.Services.AddScoped<IValidator<CreateProductProfileRequest>, CreateProductProfileValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateProductProfileValidator>();
+builder.Services.AddMemoryCache();
+
+builder.Services.AddAutoMapper(
+    cfg => {
+        cfg.AddProfile<ProductMapping>();
+        cfg.AddProfile<AdvancedProductMappingProfile>();
+    }, 
+    typeof(ProductMapping), typeof(AdvancedProductMappingProfile)
+);
 
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc
-    (
+    c.SwaggerDoc(
         "v1",
         new Microsoft.OpenApi.Models.OpenApiInfo
         {
@@ -36,12 +49,14 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
+// Correlation middleware before endpoints
+app.UseMiddleware<CorrelationMiddleware>();
+
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<ProductManagementContext>();
     context.Database.EnsureCreated();
 }
-
 
 if (app.Environment.IsDevelopment())
 {
@@ -57,7 +72,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapPost("/products", async (CreateProductRequest req, CreateProductHandler handler) =>
+app.MapPost("/products", async (CreateProductProfileRequest req, CreateProductHandler handler) =>
     await handler.Handle(req));
 app.MapGet("/products", async (GetAllProductsHandler handler) =>
     await handler.Handle(new GetAllProductsRequest()));

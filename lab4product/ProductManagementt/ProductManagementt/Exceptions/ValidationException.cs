@@ -1,17 +1,17 @@
-﻿namespace ProductManagementt.Exceptions;
+﻿using FluentValidation.Results;
 
-public class ValidationException : BaseException
+namespace ProductManagementt.Exceptions
 {
-    public List<string> Errors { get; }
-
-    public ValidationException(IEnumerable<string> errors) :
-        base("Validation failed", 400, "VALIDATION_ERROR")
+    public class ValidationException : Exception
     {
-        Errors = errors?.ToList() ?? new List<string>();
-    }
+        public List<string> Errors { get; }
 
-    public ValidationException(string error) : base("Validation failed", 400, "VALIDATION_ERROR")
-    {
-        Errors = new List<string> { error };
+        public ValidationException(IEnumerable<ValidationFailure> failures)
+            : base(string.Join("; ", failures.Select(f => f.ErrorMessage)))
+        {
+            Errors = failures.Select(f => f.ErrorMessage).ToList();
+        }
+
+        public ValidationException(string message) : base(message) { }
     }
 }
