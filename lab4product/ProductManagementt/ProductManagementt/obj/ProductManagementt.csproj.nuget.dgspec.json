@@ -46,7 +46,7 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[15.1.0, )"
+              "version": "[12.0.1, )"
             },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -78,6 +78,10 @@
               "target": "Package",
               "version": "[9.0.9, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.9, )"
@@ -85,6 +89,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
             }
           },
           "imports": [

@@ -2,7 +2,7 @@
 using ProductManagementt.Features.Mapping.Resolvers;
 using ProductManagementt.Features.Products;
 
-namespace ProductManagementt.Features.Mapping;
+namespace ProductManagementt.Common.Mapping;
 
 public class AdvancedProductMappingProfile : Profile
 {
@@ -52,6 +52,5 @@ public class AdvancedProductMappingProfile : Profile
             .ForMember(d => d.ProductAge,          o => o.MapFrom<ProductAgeResolver>())
             .ForMember(d => d.BrandInitials,       o => o.MapFrom<BrandInitialsResolver>())
             .ForMember(d => d.AvailabilityStatus,  o => o.MapFrom<AvailabilityStatusResolver>());
-
     }
 }

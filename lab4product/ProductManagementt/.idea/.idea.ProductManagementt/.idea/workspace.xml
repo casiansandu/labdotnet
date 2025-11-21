@@ -9,16 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24058551-9e67-4120-96c2-c91d77c9109b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProductManagementt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProductManagementt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Products/CreateProductHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Features/Products/CreateProduct/CreateProductHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Products/CreateProductProfileRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Features/Products/CreateProduct/CreateProductProfileRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Products/CreateProductRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Features/Products/CreateProduct/CreateProductRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Products/DeleteProductHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Features/Products/DeleteProduct/DeleteProductHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Products/DeleteProductRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Features/Products/DeleteProduct/DeleteProductRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Products/GetAllProductsHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Features/Products/GetAllProducts/GetAllProductsHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Products/GetAllProductsRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Features/Products/GetAllProducts/GetAllProductsRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Products/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Features/Products/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductManagementt/Common/Mapping/Resolvers/ProductAgeResolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Mapping/AdvancedProductMappingProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Common/Mapping/AdvancedProductMappingProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Mapping/Resolvers/AvailabilityStatusResolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Common/Mapping/Resolvers/AvailabilityStatusResolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Mapping/Resolvers/BrandInitialsResolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Common/Mapping/Resolvers/BrandInitialsResolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Mapping/Resolvers/CategoryDisplayResolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Common/Mapping/Resolvers/CategoryDisplayResolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Mapping/Resolvers/PriceFormatterResolver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Common/Mapping/Resolvers/PriceFormatterResolver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Mapping/Resolvers/ProductAgeResolver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Products/CreateProduct/CreateProductHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Features/Products/CreateProduct/CreateProductHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Products/CreateProduct/CreateProductRequest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/Features/Products/ProductProfileDTO.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Features/Products/ProductProfileDTO.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagementt/ProductManagementt.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/ProductManagementt.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/Validators/CreateProductValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/bin/Debug/net9.0/ProductManagementt.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/bin/Debug/net9.0/ProductManagementt.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagementt/bin/Debug/net9.0/ProductManagementt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/bin/Debug/net9.0/ProductManagementt.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagementt/bin/Debug/net9.0/ProductManagementt.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/bin/Debug/net9.0/ProductManagementt.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagementt/bin/Debug/net9.0/ProductManagementt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/bin/Debug/net9.0/ProductManagementt.pdb" afterDir="false" />
@@ -27,6 +31,7 @@
       <change beforePath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/obj/Debug/net9.0/ProductManagementt.sourcelink.json" afterDir="false" />
@@ -42,7 +47,7 @@
       <change beforePath="$PROJECT_DIR$/ProductManagementt/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagementt/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductManagementt/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductManagementt/productmanagement.db" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManagementt/productmanagement.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManagementt/productmanagement.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,22 +91,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.ProductManagementt: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "lab4product",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ProductManagementt: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lab4product&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ProductManagementt: http">
     <configuration name="ProductManagementt: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ProductManagementt/ProductManagementt.csproj" />
@@ -147,6 +152,7 @@
       <workItem from="1761892604807" duration="3145000" />
       <workItem from="1761897734567" duration="776000" />
       <workItem from="1763577844516" duration="813000" />
+      <workItem from="1763650870584" duration="11751000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <option name="closed" value="true" />

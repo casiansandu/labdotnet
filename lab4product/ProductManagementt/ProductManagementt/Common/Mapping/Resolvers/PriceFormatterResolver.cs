@@ -8,6 +8,6 @@ public class PriceFormatterResolver : IValueResolver<Product, ProductProfileDto,
 {
     public string Resolve(Product source, ProductProfileDto destination, string destMember, ResolutionContext context)
     {
-        return source.Price.ToString("C2", CultureInfo.CurrentCulture);
+        return source.Price.ToString("C2");
     }
 }

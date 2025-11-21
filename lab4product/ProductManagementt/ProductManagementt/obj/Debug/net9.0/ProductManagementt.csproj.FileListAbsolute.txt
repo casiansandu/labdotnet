@@ -158,3 +158,5 @@ C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\Pr
 C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\obj\Debug\net9.0\ProductManagementt.pdb
 C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\obj\Debug\net9.0\ProductManagementt.genruntimeconfig.cache
 C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\obj\Debug\net9.0\ref\ProductManagementt.dll
+C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -12,21 +12,21 @@ public class AvailabilityStatusResolver : IValueResolver<Product, ProductProfile
             return "Out of Stock";
         }
 
-        if (source.StockQuantity <= 0)
-        {
-            return "Unavailable";
-        }
+        var stock = source.StockQuantity;
 
-        if (source.StockQuantity == 1)
+        switch (stock)
         {
-            return "Last Item";
-        }
+            case <= 0:
+                return "Unavailable";
 
-        if (source.StockQuantity <= 5)
-        {
-            return "Limited Stock";
-        }
+            case 1:
+                return "Last Item";
 
-        return "In Stock";
+            case <= 5:
+                return "Limited Stock";
+
+            default:
+                return "In Stock";
+        }
     }
 }
