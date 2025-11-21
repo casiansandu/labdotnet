@@ -160,3 +160,11 @@ C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\Pr
 C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\obj\Debug\net9.0\ref\ProductManagementt.dll
 C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\AutoMapper.dll
 C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\FluentAssertions.dll
+C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\xunit.abstractions.dll
+C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\xunit.assert.dll
+C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\xunit.core.dll
+C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\xunit.execution.dotnet.dll
+C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\Castle.Core.dll
+C:\Users\casia\OneDrive\Desktop\laborator .net\lab4product\ProductManagementt\ProductManagementt\bin\Debug\net9.0\Moq.dll

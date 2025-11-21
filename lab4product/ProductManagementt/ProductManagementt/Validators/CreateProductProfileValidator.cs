@@ -1,8 +1,9 @@
 ﻿using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using ProductManagementt.Persistance;
-using ProductManagementt.Features.Products;
+using ProductManagementt.Features.Products.CreateProduct;
 using System.Text.RegularExpressions;
+using ProductManagementt.Features.Products;
 
 namespace ProductManagementt.Validators;
 public class CreateProductProfileValidator : AbstractValidator<CreateProductProfileRequest>

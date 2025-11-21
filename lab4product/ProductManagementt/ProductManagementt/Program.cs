@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using ProductManagementt.Features.Products;
 using ProductManagementt.Common.Mapping;
 using ProductManagementt.Common.Middleware;
+using ProductManagementt.Features.Products.CreateProduct;
 using ProductManagementt.Persistance;
 using ProductManagementt.Validators;
 
@@ -19,6 +20,7 @@ builder.Services.AddScoped<DeleteProductHandler>();
 
 builder.Services.AddScoped<IValidator<CreateProductProfileRequest>, CreateProductProfileValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateProductProfileValidator>();
+builder.Services.AddMemoryCache();
 
 builder.Services.AddAutoMapper(
     cfg => {
